@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Authentication" thread-count="3" >
+<parameter name="actualemail" value="miya@gmail.com" />
+<parameter name="actualpassword" value="refresh123" />
+
+<listeners>
+<listener class-name="customListener.Listener"></listener> 
+
+</listeners>
+
+ <test name = "Endtoendregistereduser">
+      <classes>
+        
+          <class name = "MuMavenProject.ecommercewebsite.TestCases.End2End_RegisteredUser_orderItem" />
+      </classes>
+   </test>
+
+
+
+
+
+</suite>
