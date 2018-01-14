@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="customListener.Listener"/>
+  </listeners>
+  <test name="Endtoendregistereduser(failed)">
+    <classes>
+      <class name="MuMavenProject.ecommercewebsite.End2End_RegisteredUser_OrderItem">
+        <methods>
+          <include name="createaccount"/>
+          <include name="itemshopping"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- MuMavenProject.ecommercewebsite.End2End_RegisteredUser_OrderItem -->
+    </classes>
+  </test> <!-- Endtoendregistereduser(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
